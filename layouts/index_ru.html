@@ -1,0 +1,205 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      <h1 class=" my-4">{{ .Title }}</h1>
+    </div>
+    <div class="col-md-8 text-center">
+      <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://docs.akash.network/guides/deploy" role="button"
+        target="_blank">{{ i18n "get-started" }}</a>
+      <p class="meta">Open-source. Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">{{ $data :=
+          getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+{{ if eq $.Site.Language.LanguageName "Русский" }}
+<section class="section section-sm mt-5">
+  <div class="container text-left d-none d-md-block">
+    <div class="row m-5 justify-content-center">
+      <div class="col-md-6 text-center">
+        {{ partial "content/svg.html" "fish" }}
+      </div>
+      <div class="col-md-8">
+        <h2 class="h4">Получай удовольствие от владения своим облаком</h2>
+        <p> Вместе с Akash у вас есть возможность владеть своим облаком. Т.е. вы можете развернуть собственную облачную инфраструктуру и
+            продавать неиспользуемые облачные ресурсы другим. А при необходимоти покупать ресурсы у других и использовать для запуска своих приложений. </p>
+      </div>
+    </div>
+    <div class="row m-5 justify-content-center">
+      <div class="col-md-8">
+        <h2 class="h4">Супероблако рядом и по цене, которую выбираешь сам</h2>
+        <p>Akash - это открытая супероблачная сеть (<a href="http://supercloud.cs.cornell.edu/" target="_blank">), которая упрощает масштабирование и предоставляет 
+          собой быстрый доступ к услугам по всему миру. Она использует систему «обратного аукциона», где клиенты запрашивают желаемую цену, а поставщики конкурируют 
+          за прибыль. Подобный подход приводит к снижению цен на 85% по сравнению с другими облачными системами.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        {{ partial "content/svg.html" "pig" }}
+      </div>
+      <div class="row m-5 justify-content-center">
+        <div class="col-md-6 text-center">
+          {{ partial "content/svg.html" "parachute" }}
+        </div>
+        <div class="col-md-8">
+          <h2 class="h4">Использование для общественных нужд</h2>
+          <p>Akash принадлежит и управляется сообществом. Это бесплатный общедоступный сервис с открытым исходным кодом. Он был построен 
+             на основе надежных технологий, таких как Kubernetes и Cosmos. Сообщество наблюдает за всеми аспектами Akash, включая и решения о том, 
+             какие новые функции должны быть реализованы.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Version -->
+  <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
+    <div class="row">
+      <div class="col">
+        <h2 class="h4">Получай удовольствие от владения своим облаком</h2>
+        <p>
+          Вместе с Akash у вас есть возможность владеть своим облаком. Т.е. вы можете развернуть собственную облачную инфраструктуру и
+          продавать неиспользуемые облачные ресурсы другим. А при необходимоти покупать ресурсы у других и использовать для запуска своих 
+          приложений.
+        </p>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col">
+        <h2 class="h4">Супероблако рядом и по цене, которую выбираешь сам</h2>
+        <p>Akash - это открытая супероблачная сеть (<a href="http://supercloud.cs.cornell.edu/" target="_blank">), которая упрощает масштабирование и предоставляет 
+          собой быстрый доступ к услугам по всему миру. Она использует систему «обратного аукциона», где клиенты запрашивают желаемую цену, а поставщики конкурируют 
+          за прибыль. Подобный подход приводит к снижению цен на 85% по сравнению с другими облачными системами.</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col">
+        <h2 class="h4">Использование для общественных нужд</h2>
+        <p>Akash принадлежит и управляется сообществом. Это бесплатный общедоступный сервис с открытым исходным кодом. Он был построен 
+             на основе надежных технологий, таких как Kubernetes и Cosmos. Сообщество наблюдает за всеми аспектами Akash, включая и решения о том, 
+             какие новые функции должны быть реализованы.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+<section class="section section-sm text-left">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h2 class="h5">Код для управления инфраструктурой (IaC)</h2>
+        <p class="small"> Уровень оркестровки Akash основан на SDL. Этот простой в использовании язык основан на YAML и позволяет
+                          создавать сложные развертывания, охватывающие несколько областей провайдеров. Это прекрасная возможность выбора ресурсов, которые вы хотите
+                          использовать, и цены, что вас устраивает. </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5">База Kubernetes</h2>
+        <p class="small"> Akash работает на базе Kubernetes, ведущей в отрасли системе оркестрации контейнеров. Благодаря этому вы можете быть уверены, 
+                          что ваши приложения будут размещены на безопасной и надежной платформе, которая была протестирована и доказала свою работоспособность.</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5"> Постоянное хранение (Persistent Storage) </h2>
+        <p class="small">Akash предлагает безграничную систему хранения, которая сохраняет ваши данные даже после перезапуска. 
+                         Это идеально подходит для больших баз данных и программ.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h2 class="h5">Аренда выделенных IP-адресов</h2>
+        <p class="small"> Akash дает возможность арендовать выделенный IP-адрес для вашего приложения, что 
+                          позволяет назначить выбранный вами порт для вашего развертывания и направить трафик к нему. 
+                          Это особенно полезно для таких служб, как DNS, веб-сервера и т. д.</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5">цензуроустойчивый и неуязвимый</h2>
+        <p class="small"> Развертывание приложений на Akash открыто для всех, оно безопасно и защищено от цензуры.
+                          Никто не может помешать вам использовать Akash для создания приложений, не подлежащих цензуре.</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5"> Псевдонимность плюс несвязанность (анонимность) </h2>
+        <p class="small"> Протокол Akash предназначен для защиты вашей личности, обеспечивая высокий уровень конфиденциальности и
+                          безопасности. Вы можете использовать его для анонимного развертывания приложений, чтобы никто не знал, кто вы.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h2 class="h5">Peer-to-peer and Private</h2>
+        <p class="small"> You and the provider you're using to deploy your application communicate directly, without any
+          external parties. This makes sure your data stays secure and private, and no one can claim a portion of your
+          payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable
+          and unaffected by single point of failure. </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5">Layer One Protocol</h2>
+        <p class="small"> Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to
+          secure its network of decentralized validators. The network can be validated without permission and is secured
+          by AKT, its native token. </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="h5">Interoperable with IBC</h2>
+        <p class="small"> Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication
+          (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that
+          are also IBC compatible. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr />
+<section>
+  <div class="container">
+    <div class="related-posts">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3 class="section-title text-center">Latest From The Blog</h3>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5">
+        {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
+        <div class="col">
+          <div class="card">
+            {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
+            {{ partial "content/card-image.html" . }}
+            <div class="card-body">
+              <article>
+                <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+                </h2>
+                <p>{{ .Params.excerpt | safeHTML }}</p>
+                {{ partial "main/blog-meta.html" . -}}
+              </article>
+            </div>
+          </div>
+        </div>
+        {{ end -}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<div class="py-2 mt-5 bg-light rounded-3 text-center ">
+  <div class="container-fluid py-5 ">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <h2>Interested in receiving the latest Akash news? Sign up for Akash's Newsletter</h2>
+        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across
+          the Akash ecosystem.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://akt.fyi/3kpRwVM" target="_blank"
+          rel="noopener noreferrer">Subscribe</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
