@@ -1,6 +1,6 @@
 ---
-title: "The Akash Network Community"
-description: "Akash Community"
+title: "Сообщество Akash Network"
+description: "Akash сообщество"
 key: "community"
 date: 2022-12-28T00:19:20-08:00
 lastmod: 2022-12-28T00:19:20-08:00
@@ -9,25 +9,25 @@ images: []
 toc: true
 ---
 
-# Akash Community
+# Akash комьюнити
 
-The Akash Network is supported by a diverse group of users, contributors, and supporters. We strive to improve the project and work together efficiently. We're proud of our progress over the years. All aspects of the Akash Network - from code to culture - are managed by the community and divided into three programs.
+Akash Network поддерживается разнообразной группой пользователей, участников и сторонников. Мы стремимся улучшить проект и эффективно работать вместе. Мы гордимся нашим прогрессом за эти годы. Все аспекты сети Akash — от кода до культуры — управляются сообществом и делятся на три программы.
 
 | |
 | :--- | :--- |
-| [Core Community Groups](core-groups) | Core community groups are responsible for contributing code, writing documentation, testing product features and reporting bugs, organizing meetups and suggesting ideas for new features and various other activities that evolve the Akash Network. |
-| [Akash Insiders](insiders) | Akash Insiders are global leaders and influencers in the Web3 space. They support our community by moderating Akash social channels, organizing and attending online and in-person events, and creating technical and non-technical educational content. |
-| [Akash EDU](edu) | Akash EDU aims to provide world-class web3 education, along with certificates of completion and achievements. |
-| [Community Contributions](contributions) | The Akash Community suppports community education and growth through written and video content. Check out all the fantastic content our community has created here. Or, make a PR and add your own Akash content! |
+| [Основные группы сообщества](core-groups) | Основные группы сообщества отвечают за внесение кода, написание документации, тестирование функций продукта, информирование об ошибках, организацию встреч и предложение идей для новых функций и прочие действия, которые развивают Akash Network. |
+| [Akash-инсайдеры](insiders) | Akash-инсайдеры, это мировые лидеры и влиятельные лица в пространстве Web3. Они поддерживают наше сообщество, модерируя социальные каналы Akash, организуя и посещая онлайн и личные мероприятия, а также создавая технический и нетехнический образовательный контент.|
+| [Akash EDU](edu) | Akash EDU стремится предоставить образование мирового уровня в области web3, а также сертификаты об окончании и достижениях. |
+| [Вклад сообщества](contributions) | Сообщество Akash поддерживает образование и рост сообщества с помощью текстовых гайдов и видеоконтента. Ознакомьтесь со всем фантастическим контентом, созданным нашим сообществом, здесь. Или добавьте свой собственный контент Akash! |
 
-## Discussions
+## Обсуждения
 
-Join the conversation by connecting with the Akash Community on any of these platforms!
+Присоединяйтесь к беседе, подключившись к сообществу Akash на любой из этих платформ!
 
-* **[Twitter:](https://twitter.com/akashnet_)** Follow @akashnet_ for real-time announcements of blog posts, events, news, ideas.
-* **[GitHub:](https://github.com/akash-network)** All the project and issue tracking, plus Akash's open source code.
-* **[Discord:](https://discord.akash.network)** With 100+ channels for developers, you'll find one that fits your needs.
-* **[Telegram:](https://t.me/AkashNW)** Discuss Akash Network with other non-technical community members.
-* **[Reddit:](https://www.reddit.com/r/akashnetwork/)** Connect with over 5,200+ Redittors on Akash Network Subreddit.
-* **[YouTube:](https://www.youtube.com/@AkashNetwork)** Check out Akash Network's Youtube channel.
-* **[Community Forums:](https://github.com/akash-network/community/discussions/2)** Topic-based technical discussions that bridge docs, troubleshooting, and so much more.
+* **[Twitter:](https://twitter.com/akashnet_)** Подпишись на @akashnet_ чтобы в режиме реального времени узнавать о сообщениях в блогах, событиях, новостях и идеях сообщества.
+* **[GitHub:](https://github.com/akash-network)** Отслеживание проектов и проблем, а также открытый исходный код Akash.
+* **[Discord:](https://discord.akash.network)** Из 100+ каналов для разработчиков вы найдете тот, который соответствует вашим потребностям.
+* **[Telegram:](https://t.me/AkashNW)** Обсудите Akash Network с другими нетехническими членами сообщества.
+* **[Reddit:](https://www.reddit.com/r/akashnetwork/)** Общайтесь с более чем 5,200+ редакторами в сети Akash Subreddit.
+* **[YouTube:](https://www.youtube.com/@AkashNetwork)** Посетите канал Akash Network на Youtube.
+* **[Community Forums:](https://github.com/akash-network/community/discussions/2)** Тематические технические обсуждения, объединяющие документы, устранение неполадок и многое другое.
