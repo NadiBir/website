@@ -1,41 +1,41 @@
 ---
-title: "Core Community Groups"
+title: "Основные группы сообщества"
 date: 2023-1-09T00:19:20-08:00
 ---
 
-# Akash Network Community
+# Сообщество Akash Network
 
-Welcome to the Akash Network community!
+Доброго пожаловать в сообщество Akash Network!
 
-This is the starting point for joining and contributing to building Akash Network - committing code, writing docs, testing product features & reporting bugs, organizing meetups, suggesting ideas for new features, and more.
+Это отправная точка для присоединения к Akash Network и участия в ее создании — внесение кода, написание документации, тестирование функций продукта и сообщение об ошибках, организация встреч, предложение идей для новых функций и многое другое.
 
-## Getting Acquainted
+## Знакомство
 
-- To learn about the types of community groups read the rest of this document.
-- To see a full list of current Akash Network community groups, see: [community/cg-list](cg-list)
-- To learn about our product strategy & prioritization framework, see: [community/product-strategy](product-strategy)
-- To see a list of projects being worked on or under consideration see: [community/project-list](projects-list)
+- Информация о типах общественных групп размещена ниже этого документа.
+- Полный список текущих групп сообщества Akash Network смотри здесь: [community/cg-list](cg-list)
+- Информация о нашей продуктовой стратегии и системе определения приоритетов расположена здесь: [community/product-strategy](product-strategy)
+- Cписок проектов, над которыми работают или находятся на рассмотрении, смотри здесь: [community/project-list](projects-list)
 
-## Getting started with contributing
+## Начало работы
 
-The Akash Network community welcomes contributions from community members at various levels of technical ability and familiarity with Akash. If you are interested in contributing to the project, please read through the "Getting Acquainted" section first. Then, join our discord server and refer to the below table to choose a starting point based on your skillset.
+Сообщество Akash Network приветствует участие членов сообщества с разным уровнем технических знаний и знакомства с Akash. Если вы заинтересованы в участии проекта, сначала прочитайте раздел «Знакомство». Затем присоединяйтесь к нашему discord и обратитесь к таблице ниже, чтобы выбрать начальную точку в зависимости от вашего набора навыков.
 
-| Your background | Suggested starting point for contribution |
+| Ваш опыт | Предлагаемая стартовая точка для вклада |
 | --- | --- |
-| Non-technical, Never used Akash | [Review docs](https://docs.akash.network/) and attempt deploying a tetris game on Akash. Suggest any changes or improvements to the documentation by filing an issue in [sig-documentation](sig-documentation). |
-| Frontend (node, JS) developer, Never used Akash | [Review docs](https://docs.akash.network/) and deploy an application. Review code base for Akash Console or Cloudmos Deploy, set up local environment. Review open issues for either project, choose something (like a simple bug fix) that interests you and add a comment or submit a PR for review. |
-| Backend (Go) developer, Never used Akash | [Review docs](https://docs.akash.network/) and deploy an application on Akash using CLI. Review code base for Akash CLI and Provider Services, set up local development environment. Review open issues for either code base and comment on potential solution to any problem and/ or submit PR for review. |
-| Technical developer, Already building on Akash | Considering joining one of our [SIGs](cg-list), [WGs](cg-list) and writing a spec for one of the projects in the list or suggest a new prjoject to add to the [list of projects](projects-list). |
+| Нетехнический, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и попытаться развернуть игру тетрис на Akash. Предложите какие-либо изменения или улучшения в документации, решив проблему в [sig-документации](sig-documentation). |
+| Frontend (нода, JS) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть предложение. Просмотрите основу кода консоли Akash или Cloudmos Deploy, настройте локальную среду. Просмотрите открытые проблемы для любого проекта, выберите то, что вас интересует (например, простое исправление ошибки), и добавьте комментарий или отправьте PR на рассмотрение. |
+| Backend (Go) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть приложение на Akash с помощью CLI. Просмотрите основу кода для Akash CLI и Provider Services, настройте локальную среду разработки. Просмотрите открытые проблемы для любой базы кода и прокомментируйте потенциальное решение любой проблемы и / или отправьте PR на рассмотрение. |
+| Технический разработчки, Есть опыт построения на Akash | Рассмотрите возможность присоединения к одной из наших групп [SIGs](https://akash.network/community/core-groups/cg-list/). [WGs](https://akash.network/community/core-groups/cg-list/) и написания спецификации для одного из проектов в списке или предложения нового проекта для добавления в  [список проектов](projects-list). |
 
-## Community Groups
+## Группы сообщества
 
-The Akash Network community groups are insipired by the [Kubernetes project](https://github.com/kubernetes/community) and currently consist of the following groups. As our community evolves, we will consider changing this structure as needed. All groups listed below are open to anyone interested in participating in them, except "Committees" that have preassigned members.
+Группы сообщества Akash Network вдохновлены проектом [Kubernetes](https://github.com/kubernetes/community) и в настоящее время имеют определенную структуру групп. По мере развития нашего сообщества мы, возможно, рассмотрим изменение этой структуры. Все групп ниже открыты, и кто заинтересован, за исключением «Комитетов», в которых есть заранее назначенные члены, могут принять в них участие.
 
-![Community Groups Block Diagram](akash-community-groups-block-diagram.png)
+Блок-схема групп сообщества](akash-community-groups-block-diagram.png)
 
-### Special Interest Groups (SIGs)
+### Группы по интересам (SIGs)
 
-SIGs are vertically specialized community groups that are working on foundational elements of Akash Network by implementing and supporting products that are defined by the working groups or smaller feature ideas. **SIGs may generally be involved in both defining (spec’ing) as well as building specific products and features. SIGs are persistent groups in that they exist forever.**
+SIG — это вертикально специализированные группы сообщества, которые работают над основополагающими элементами сети Akash, внедряя и поддерживая продукты, определенные рабочими группами, или идеи с более мелкими функциями. **SIG обычно могут участвовать как в определении (спецификации), так и в создании конкретных продуктов и функций. SIG являются постоянными группами в том смысле, что они существуют вечно.**
 
 ### Working Groups (WGs)
 
