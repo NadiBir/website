@@ -18,49 +18,49 @@ date: 2023-1-09T00:19:20-08:00
 
 ## Начало работы
 
-Сообщество Akash Network приветствует участие членов сообщества с разным уровнем технических знаний и знакомства с Akash. Если вы заинтересованы в участии проекта, сначала прочитайте раздел «Знакомство». Затем присоединяйтесь к нашему discord и обратитесь к таблице ниже, чтобы выбрать начальную точку в зависимости от вашего набора навыков.
+Сообщество Akash Network приветствует участие членов сообщества с разным уровнем технических знаний и знакомства с Akash. Если вы заинтересованы в участии проекта, сначала прочитайте раздел «Знакомство». Затем присоединяйтесь к нашему discord и обратитесь к таблице ниже, чтобы выбрать стартовую точку в зависимости от вашего набора навыков.
 
 | Ваш опыт | Предлагаемая стартовая точка для вклада |
 | --- | --- |
 | Нетехнический, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и попытаться развернуть игру тетрис на Akash. Предложите какие-либо изменения или улучшения в документации, решив проблему в [sig-документации](sig-documentation). |
-| Frontend (нода, JS) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть предложение. Просмотрите основу кода консоли Akash или Cloudmos Deploy, настройте локальную среду. Просмотрите открытые проблемы для любого проекта, выберите то, что вас интересует (например, простое исправление ошибки), и добавьте комментарий или отправьте PR на рассмотрение. |
-| Backend (Go) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть приложение на Akash с помощью CLI. Просмотрите основу кода для Akash CLI и Provider Services, настройте локальную среду разработки. Просмотрите открытые проблемы для любой базы кода и прокомментируйте потенциальное решение любой проблемы и / или отправьте PR на рассмотрение. |
-| Технический разработчки, Есть опыт построения на Akash | Рассмотрите возможность присоединения к одной из наших групп [SIGs](cg-list), [WGs](cg-list) и написания спецификации для одного из проектов в списке или предложения нового проекта для добавления в [список проектов](projects-list). |
+| Frontend (нода, JS) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть приложение. Просмотрите основу кода консоли Akash или Cloudmos Deploy, настройте локальную среду. Просмотрите открытые проблемы для любого проекта, выберите то, что вас интересует (например, простое исправление ошибки), и добавьте комментарий или отправьте PR на рассмотрение. |
+| Backend (Go) разработчик, Никогда не использовал Akash | [Просмотреть документ](https://docs.akash.network/) и развернуть приложение на Akash с помощью CLI. Просмотрите основу кода для Akash CLI и Provider Services, настройте локальную среду разработки. Просмотрите открытые проблемы для любой части кода и прокомментируйте потенциальное решение любой проблемы и / или отправьте PR на рассмотрение. |
+| Технический разработчки, Есть опыт построения на Akash | Рассмотрите возможность присоединения к одной из наших групп [SIG](cg-list), [WG](cg-list) и написания спецификации для одного из проектов в списке или предложения нового проекта для добавления в [список проектов](projects-list). |
 
 ## Группы сообщества
 
-Группы сообщества Akash Network вдохновлены проектом [Kubernetes](https://github.com/kubernetes/community) и в настоящее время имеют определенную структуру групп. По мере развития нашего сообщества мы, возможно, рассмотрим изменение этой структуры. Все групп ниже открыты, и кто заинтересован, за исключением «Комитетов», в которых есть заранее назначенные члены, могут принять в них участие.
+Группы сообщества Akash Network вдохновлены проектом [Kubernetes](https://github.com/kubernetes/community) и в настоящее время имеют определенную структуру групп. По мере развития нашего сообщества мы, возможно, рассмотрим изменение этой структуры. Все группы ниже открыты, и кто заинтересован, за исключением «Комитетов», в которых есть заранее назначенные члены, могут принять в них участие.
 
-Блок-схема групп сообщества](akash-community-groups-block-diagram.png)
+[Блок-схема групп сообщества](akash-community-groups-block-diagram.png)
 
-### Группы по интересам (SIGs)
+### Группы по интересам (SIG)
 
-SIG — это вертикально специализированные группы сообщества, которые работают над основополагающими элементами сети Akash, внедряя и поддерживая продукты, определенные рабочими группами, или идеи с более мелкими функциями. **SIG обычно могут участвовать как в определении (спецификации), так и в создании конкретных продуктов и функций. SIG являются постоянными группами в том смысле, что они существуют вечно.**
+SIG — это вертикально специализированные группы сообщества, которые работают над основополагающими элементами Akash Network, внедряя и поддерживая продукты, определенные рабочими группами, или идеи с более мелкими функциями. **SIG обычно могут участвовать как в определении (спецификации), так и в создании конкретных продуктов и функций. SIG являются постоянными группами в том смысле, что они существуют всегда.**
 
-### Working Groups (WGs)
+### Рабочие группы (WG)
 
-WGs are horizontally aligned community groups that pursue significantly large cross-cutting initiatives involving multiple SIGs. **WGs do not work on implementing features or projects but will be involved in defining (PRD-style) large projects with multiple components across the entire stack** and potentially involving non-Akash partners and stakeholders as well. **Working groups may be active for days, weeks or months but are generally not considered “persistent” like SIGs.**
+WG — это горизонтально ориентированные группы сообщества, которые реализуют значительные сквозные инициативы с участием нескольких SIG. **WG не работают над реализацией функций или проектов, но будут участвовать в определении (в стиле PRD) крупных проектов с несколькими компонентами по всему стеку.** с участием возможных партнеров и заинтересованных сторон, не входящих в Akash. **Рабочие группы могут быть активны в течение нескольких дней, недель или месяцев, но обычно не считаются «постоянными», как SIG.**
 
-### User Groups (UGs)
+### Группы пользователей (UG)
 
-UGs are for facilitating open communication and discovery of topics that may end up in WGs or SIGs. These may also be groups discussing broad use cases like ML/AI or Big Data. Lastly, these may be things that we don’t prioritize for product development based on our current strategy but still things that people want to discuss.
+Пользовательские группы предназначены для облегчения открытого общения и обнаружения тем, которые могут оказаться в рабочих группах или группах SIG. Это также могут быть группы, обсуждающие широкие варианты использования, такие как ML/AI или Big Data. Наконец, это могут быть вещи, которым мы не уделяем первоочередного внимания при разработке продукта на основе нашей текущей стратегии, но тем не менее это вещи, которые люди хотят обсуждать.
 
-### Committees
+### Комитеты
 
-Committees are named sets of people that are chartered to take on sensitive topics. This group is encouraged to be as open as possible while achieving its mission but, because of the nature of the topics discussed, private communications are allowed. Examples of committees include the Steering Committee and things like 'security' or 'code of conduct.'
+Комитеты — это группы людей, которым поручено заниматься деликатными темами. Этой группе рекомендуется быть максимально открытой при выполнении своей миссии, но из-за характера обсуждаемых тем разрешено частное общение. Примеры комитетов включают Руководящий комитет и такие вещи, как 'безопасность' или 'кодекс поведения'.
 
-- #### Steering Committee
+- #### Руководящий комитет
   
-    The [Steering Committee](committee-steering/README) is a special SIG that periodically evaluates the list of projects, prioritizes/adds/removes items and decides which SIG or WG is best suited to tackle the project. The Steering Committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and will perform conflict resolution as necessary.
+    Руководящий комитет — это специальная SIG-группа, которая периодически оценивает список проектов, расставляет приоритеты/добавляет/удаляет элементы и решает, какая SIG или WG группа лучше всего подходит для выполнения проекта. Руководящий комитет также регулярно встречается, чтобы объединить знания для улучшения работы сообщества Akash Network, и при необходимости будет разрешать конфликты.
 
-### Examples
+### Примеры
 
-To see a list of projects being worked on or under consideration see [community/project-list](projects-list)
+Список проектов, над которыми уже работают или еще находятся на рассмотрении, можно посмотреть здесь [список проектов сообщества](projects-list)
 
-- - A “wg-gpu” that works on end-to-end execution of what it will take for Akash Network to support GPUs. This may include specifications for changes to Deployments (SDL) and Providers, deciding on what vendors and models of GPUs fit with our customer use cases, figure out the best partnerships for sourcing GPU inventory for those models, decide whether we need to solve bandwidth pricing, running alpha/beta testing, etc.  The GPU-WG's work will potentially result in multiple projects being created for the “Providers-SIG”, the “Deployments-SIG”, the “Economics-SIG” and so on. These SIGs will define a lower-level spec for their specific area (based on the overall high-level spec defined by the GPU-SIG), and implement it.
+- “WG-gpu” предназначена для поддержки Akash Network GPU и работает в фазе конечного тестирования. Функциональность группы может включать в себя разработку спецификации для изменений в развертываниях (SDL), решение о том, какие поставщики и модели GPU подходят для сценариев использования наших клиентов, определение наилучших партнерских отношений для поиска ресурсов GPU, определение того, нужно ли нам решать вопросы ценообразования пропускной способности, проведение альфа/бета-тестирования и т. д.  Работа GPU-WG потенциально может привести к созданию нескольких проектов для «Providers-SIG», «Deployments-SIG», «Economics-SIG» и др. Эти SIG-группы определят спецификацию более низкого уровня для своей конкретной области (на основе общей высокоуровневой спецификации, определенной GPU-SIG) и реализуют ее.
   
-- An “wg-ethereum” that is focused on understanding how Akash Network can be adopted by the Ethereum ecosystem. They would define a strategy that includes: technical requirements for node operators and developers, along with non-technical things like events and Discord communications. These would also result in multiple projects for various SIGs.
+- “Wg-ethereum” сосредоточена на понимании того, как Akash Network может быть принята экосистемой Ethereum.  Участники группы определят стратегию, которая включает в себя: технические требования к операторам узлов и разработчикам, а также нетехнические вещи, такие как события и общение в Discord. Это также приведет к созданию нескольких проектов для различных SIG.
 
-- Projects like the “provider microservices split” do not require a working group as they only pertain to the provider's code base and, as such, are just handled by the “sig-provider.”
+- Такие проекты, как «разделение микросервисов провайдера», не требуют рабочей группы, поскольку они относятся только к кодовой базе провайдера и, как таковые, просто обрабатываются «sig-провайдером».
 
-- Support for Authorized Spend in Console would be handled by the “sig-clients” and does not need a dedicated work group.
+- Поддержка авторизованных расходов в консоли будет осуществляться “sig-clients” и не требует специальной рабочей группы.
