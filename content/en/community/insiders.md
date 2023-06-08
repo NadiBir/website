@@ -1,6 +1,6 @@
 ---
-title: "Insiders"
-description: "Akash Insiders"
+title: "Инсайдеры"
+description: "Инсайдеры Akash"
 key: "insiders"
 date: 2022-12-28T00:19:20-08:00
 lastmod: 2022-12-28T00:19:20-08:00
@@ -10,23 +10,23 @@ toc: true
 parent: community
 url: "community/insiders"
 ---
-# Akash Insiders
+# Инсайдеры Akash
 
-## Who are Akash Insiders?
-Akash Insiders are community leaders and advocates within the Akash ecosystem.
+## Кто такие инсайдеры Akash?
+Инсайдеры Akash являются лидерами сообщества и сторонниками экосистемы Akash.
 
-## What do Akash Insiders do?
-- Moderate Akash Network social channels.
-- Organize and attend in-person and online events.
-- Write educational content for the community.
-- Represent the Akash Network online and in-person.
+## Что делают инсайдеры Akash?
+- Модерация социальных каналов Akash Network.
+- Организация и участие в личных и онлайн-мероприятиях.
+- Написание образовтельного контента для сообщества.
+- Представляют Akash Network лично и онлайн.
 
-## Why Become an Insider?
-- Develop and lead a network of Akash advocates at in-person and online events.
-- Be among the first to see and test new product releases.
-- Get a front-row education on the latest in web3 technologies.
-- Actively engage and learn from other community members from across the world.
-- Gain closer access to the Overclock Labs team.
-- Represent the Akash community at IRL events
+## Для чего становиться инсайдером?
+- Для развития и возглавления представительства Akash Network на личных и онлайн-мероприятиях.
+- Для того, чтобы быть в числе первых, кто увидит и протестирует новые выпуски продуктов
+- Для получения передовых знаний о новейших технологиях web3.
+- Для активного взаимодействия с другими членами сообщества со всего мира и приобретения новых знаний.
+- Для получения более тесного доступа к команде Overclock Labs.
+- Для представления сообщества Akash на мероприятиях IRL.
 
-Interested in becoming an Akash Insider? **[Apply today!](https://akashnet.typeform.com/to/PXpRWgfD)**
+Хотите стать инсайдером Akash? **[Подайте заявку сегодня!](https://akashnet.typeform.com/to/PXpRWgfD)**
